@@ -1,0 +1,137 @@
+body {
+	font-family: arial;
+	background-color: #f6f6f6;
+}
+
+.container {
+	width: 100%;
+}
+
+.container > div {
+	display: inline-block;
+}
+
+.space {
+	width: 15%;
+	height: inherit;
+}
+.main_body {
+	width: 70%;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 1px 2px lightgrey;
+	height: 3000px;
+	margin-top: 100px;
+}
+
+.center {
+	width: 70%;
+	height: inherit;
+}
+
+.header {
+	width: 100%;
+	height: 150px;
+}
+
+.inner_head {
+	color: #333333;
+}
+
+.col-6 {
+	width: 60%;
+	height: inherit;
+}
+
+.col-4 {
+	width: 35%;
+	height: inherit;
+	margin-bottom: -3px;
+}
+
+.sub_item {
+	margin-top: 15px;
+}
+
+.sub_head {
+	box-shadow: 0px 2px 0px 0px lightgrey;
+}
+
+.sub_head_grey {
+	background-color: #f2f2f2;
+}
+
+.sub_head p {
+	margin: 5px 5px 5px 5px !important;
+}
+
+.sub_head a {
+	float: right;
+}
+
+table p {
+	font-size: 13px;
+	margin: 5px !important;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	vertical-align: top !important;
+}
+
+p.top {
+	margin-top: 15px !important;
+}
+
+.doc_input {
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+	height: 100px;
+}
+
+.submit_inner {
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+}
+
+.submit_inner input {
+	width: 40%;
+	height: 20px;
+	border: solid 1px lightgrey;
+}
+
+.buttons {
+	margin: 20px 0px 20px 0px;
+	float: right;
+}
+
+.btn_cancel {
+	border: none;
+	border-radius: 2px;
+	width: 80px;
+	height: 24px;
+	background-color: lightgrey;
+	color: #333333;
+	font-size: 11px;
+}
+
+.btn_submit {
+	border: none;
+	border-radius: 2px;
+	width: 120px;
+	height: 24px;
+	background-color: #3d8419;
+	color: #f6f6f6;
+	font-size: 11px;
+}
+
+.small_title {
+	font-size: 13px;
+}
+
+.small_edit {
+	font-size: 12px;
+	color: #679d4b;
+}
